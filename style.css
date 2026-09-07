@@ -35,17 +35,7 @@ header p {
   gap: 1rem;
 }
 
-/* List layout for the starred repos */
-#events-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: 1rem;
-}
-
-.repository,
-#events-list .repository {
+.repository {
   padding: 1.25rem;
   border: 1px solid #d0d7de;
   border-radius: 6px;
@@ -89,18 +79,6 @@ header p {
   color: #57606a;
 }
 
-.status.error {
+.error {
   color: #cf222e;
-}
-
-/* Small accessibility helpers */
-.visually-hidden {
-  position: absolute !important;
-  height: 1px; width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-  border: 0;
-  padding: 0;
-  margin: -1px;
 }
