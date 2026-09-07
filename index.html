@@ -11,15 +11,19 @@
       <h1>Stargazers log</h1>
       <p>A log of the repositories I've starred.</p>
     </header>
+
     <main>
       <section id="events" aria-live="polite">
         <p class="status" role="status">Loading starred repositories...</p>
         <noscript>
           <p class="status">JavaScript is required to show starred repositories. Please enable JavaScript.</p>
         </noscript>
+
+        <!-- Populated by script.js: use a list for semantic navigation -->
         <ul id="events-list" hidden aria-hidden="true"></ul>
       </section>
     </main>
+
     <script src="script.js"></script>
   </body>
 </html>
